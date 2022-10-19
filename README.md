@@ -1,39 +1,48 @@
 # Animated-Lower-Thirds
 Animated Lower Thirds with dockable Control Panel - OBS Tool
 
-## Description
-With this tool you can use a control panel to add and change your own lower thirds on the fly. Feel free to customize. Basic knowledge of HTML, Javascript and CSS is required.
-For communication between control panel and browser layer it use BroadcastChannel API.
+## 翻译说明
+原始项目地址：[noeal-dac/Animated-Lower-Thirds](https://github.com/noeal-dac/Animated-Lower-Thirds)
 
-This project is based on [Lower thirds in HTML/CSS](https://obsproject.com/forum/resources/lower-thirds-in-html-css.928/), and [Animated lower thirds with control panel](https://obsproject.com/forum/resources/animated-lower-thirds-with-control-panel.922/).
+！！由于release v1.6与master分支存在代码与功能区别，故未对master分支进行汉化，仅将release v1.6 zip中的文件进行汉化，所以无法查看代码变动，非常抱歉！！
+
+暂无计划对原版做功能改动。因为自己看不懂，所以试图翻译说明文本与README。因“Lower Third”为专业名词，故以下不做翻译。非广电专业人士，如有翻译错误或翻译建议请PM或Issue。
+
+以下文档中的链接均使用了原始文档自带链接，译者未做替换。
+
+## 简介
+有了这个工具，你可以使用一个控制面板实时添加或修改属于你自己的lower thirds。随意自定义，只需一点点HTML、Javascript和CSS基础。
+控制面板和叠加层之间的通讯使用了BroadcastChannel API。
+
+这个项目基于[Lower thirds in HTML/CSS](https://obsproject.com/forum/resources/lower-thirds-in-html-css.928/)和[Animated lower thirds with control panel](https://obsproject.com/forum/resources/animated-lower-thirds-with-control-panel.922/)。
 
 ![Lower Thirds Screenshot](https://obsproject.com/forum/attachments/screen-jpg.61515/)
 
-### Features
-- Include dynamic content to streaming app with browser support (like OBS)
-- 4 differents Lower Thirds at same time
-- 10 slots for each Lower Third (Same configuration but with different title, description and logo)
-- 3 predefined styles
-- Highly customizable (colors, fonts, timing, automation, ...)
+### 功能
+- 为支持浏览器扩展的直播软件（例如OBS）添加动态内容
+- 同时拥有4条不同的Lower Third
+- 每条Lower Third拥有10个槽位（不同的标题、副标题和Logo，相同的配置）
+- 3种预设风格
+- 高度自定义（颜色、字体、计时器、动画效果...）
 
-## Installation
-1. Download the Zip file, unzip it.
-2. See how to install and new features: https://youtu.be/tddMYWya7O0
+## 安装使用
+1. 下载压缩包并解压
+2. 查看新功能与如何安装：https://youtu.be/tddMYWya7O0
 
-### Requiriments 
-Unfortunately, OBS doesn't support browser panels on MacOs. It only works on Windows, but can be used on Linux using the snap installation of OBS (More info [here](https://obsproject.com/forum/threads/installation-from-snap-26-1-2-35-gbb6b1e53f-with-most-of-the-plugins-and-features.137672/))
+### 要求
+不幸的是，在MacOS上，OBS并不支持浏览器扩展。它只在Windows上好用，但是在Linux上使用快照安装的OBS也可用（更多信息[点我](https://obsproject.com/forum/threads/installation-from-snap-26-1-2-35-gbb6b1e53f-with-most-of-the-plugins-and-features.137672/)）
 
-## Usage 
-See previus features: https://youtu.be/cQ0_1GwpwB0
+## 用法
+查看现有的功能：https://youtu.be/cQ0_1GwpwB0
 
-## Support
-You can find all videotutorials on this [Youtube Channel](https://www.youtube.com/channel/UCUYiOIl-DHn8B1eRzUfDyyw)
+## 支持
+你可以在这个[Youtube频道](https://www.youtube.com/channel/UCUYiOIl-DHn8B1eRzUfDyyw)里找到所有的视频教程
 
-## Contributing
-I am a designer and my scripting knowledge is few. I made this tool (Frankenststool) because I needed it and I want to share it. You are welcome to improve it. I am aware that many parts of the code can make any expert cry. I'm really sorry :P
+## 贡献
+我是一个设计师，我的代码知识很少。因为我需要它并且我想分享它，所以我制作了这个工具(Frankenststool)。欢迎你改善它。我知道我的代码专家看了都想哭，真的非常抱歉 :P
 
-## Donations
-If you like the extension and you want to support the development - please consider to donate by [Paypal](https://paypal.me/noealdac). Any donations are greatly appreciated.
+## 捐助
+如果你喜欢此扩展并且想支持开发者 - 请考虑通过[Paypal](https://paypal.me/noealdac)捐助。非常感谢任何捐款。
 
-## License
-The Animated Lower Thirds source code is made available under the [MIT license](https://github.com/noeal-dac/Animated-Lower-Thrids/blob/master/LICENSE).
+## 许可
+Animated Lower Thirds的源码使用[MIT license](https://github.com/noeal-dac/Animated-Lower-Thrids/blob/master/LICENSE)协议。
