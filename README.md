@@ -4,11 +4,14 @@ Animated Lower Thirds with dockable Control Panel - OBS Tool
 ## 翻译说明
 原始项目地址：[noeal-dac/Animated-Lower-Thirds](https://github.com/noeal-dac/Animated-Lower-Thirds)
 
-！！由于release v1.6与master分支存在代码与功能区别，故未对master分支进行汉化，仅将release v1.6 zip中的文件进行汉化，所以无法查看代码变动，非常抱歉！！
+1. ！！由于release v1.6与master分支存在代码与功能区别，故未对master分支进行汉化，仅将release v1.6 zip中的文件进行汉化，所以无法查看代码变动，非常抱歉！！
+2. 暂无计划对原版做功能改动。因为自己看不懂，所以试图翻译说明文本与README。“Lower Third”为专业名词，故以下不做翻译。
+3. 非广电专业人士，如有翻译错误或翻译建议请PM或Issue。以下文档中的链接均使用了原始文档自带链接，译者未做替换。
+4. 由于未知原因，原版的css有点崩，故稍作调整，具体调整位置可以查看release zip中的modifiedLOG文件
 
-暂无计划对原版做功能改动。因为自己看不懂，所以试图翻译说明文本与README。因“Lower Third”为专业名词，故以下不做翻译。非广电专业人士，如有翻译错误或翻译建议请PM或Issue。
+汉化效果如下，左侧为原版，右侧为汉化版
 
-以下文档中的链接均使用了原始文档自带链接，译者未做替换。
+![翻译前后](https://user-images.githubusercontent.com/45200086/196728398-8fe51d90-2a27-4670-bf96-f899e51ce365.png)
 
 ## 简介
 有了这个工具，你可以使用一个控制面板实时添加或修改属于你自己的lower thirds。随意自定义，只需一点点HTML、Javascript和CSS基础。
